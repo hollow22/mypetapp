@@ -24,7 +24,7 @@ class Dog extends Pet {
 
     public static void main(String[] args) 
     {
-        Dog dog1 = new Dog("Goldie", 5, Type.cat, Breed.golden_retriver);
+        Dog dog1 = new Dog("Goldie", 5, Type.dog, Breed.golden_retriver);
 
         dog1.sleep();
         dog1.getAge();

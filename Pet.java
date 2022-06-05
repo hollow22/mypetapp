@@ -21,8 +21,9 @@ class Pet{
     }
 
     public void sleep() {
-        System.out.println("Falling asleep");
+        System.out.println(name + " is falling asleep");
         tired -= 1;
+        System.out.println("Tiredness has been reduced!");
     }
 
     public void eat(){
